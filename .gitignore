@@ -1,3 +1,6 @@
+# 빌드 디렉토리
+cmake-build-debug/
+
 # Prerequisites
 *.d
 
@@ -51,3 +54,23 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# CMake 관련 임시 파일
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE 설정 파일
+.idea/
+*.iml
+
+# OS 및 편집기 임시 파일
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+
+# 불필요한 xml 파일
+*.xml
